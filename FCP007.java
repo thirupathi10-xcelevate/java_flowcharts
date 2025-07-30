@@ -4,7 +4,7 @@ public class FCP007 {
       Scanner sc = new Scanner(System.in);
       int C = sc.nextInt();
       float F = (C * 9f / 5) + 32;
-      System.out.println((int)F);
+      System.out.println(Math.round(F));
    }
 }
 
